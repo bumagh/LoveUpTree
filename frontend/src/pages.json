@@ -1,0 +1,131 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "恋人古情树",
+        "navigationBarBackgroundColor": "#ff69b4",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": true,
+        "backgroundColor": "#ffeef8"
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationBarBackgroundColor": "#ff69b4",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#ffeef8"
+      }
+    },
+    {
+      "path": "pages/task/index",
+      "style": {
+        "navigationBarTitleText": "任务列表",
+        "navigationBarBackgroundColor": "#ff69b4",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": true,
+        "backgroundColor": "#ffeef8"
+      }
+    },
+    {
+      "path": "pages/tree/index",
+      "style": {
+        "navigationBarTitleText": "古情树",
+        "navigationBarBackgroundColor": "#ff69b4",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": true,
+        "backgroundColor": "#ffeef8"
+      }
+    },
+    {
+      "path": "pages/housework/index",
+      "style": {
+        "navigationBarTitleText": "家务安排",
+        "navigationBarBackgroundColor": "#ff69b4",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": true,
+        "backgroundColor": "#ffeef8"
+      }
+    },
+    {
+      "path": "pages/schedule/index",
+      "style": {
+        "navigationBarTitleText": "时间安排",
+        "navigationBarBackgroundColor": "#ff69b4",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": true,
+        "backgroundColor": "#ffeef8"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#ff69b4",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "https://img.icons8.com/ios/50/999999/home--v1.png",
+        "selectedIconPath": "https://img.icons8.com/ios-filled/50/ff69b4/home--v1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/task/index",
+        "iconPath": "https://img.icons8.com/ios/50/999999/todo-list--v1.png",
+        "selectedIconPath": "https://img.icons8.com/ios-filled/50/ff69b4/todo-list--v1.png",
+        "text": "任务"
+      },
+      {
+        "pagePath": "pages/housework/index",
+        "iconPath": "https://img.icons8.com/ios/50/999999/broom.png",
+        "selectedIconPath": "https://img.icons8.com/ios-filled/50/ff69b4/broom.png",
+        "text": "家务"
+      },
+      {
+        "pagePath": "pages/schedule/index",
+        "iconPath": "https://img.icons8.com/ios/50/999999/calendar--v1.png",
+        "selectedIconPath": "https://img.icons8.com/ios-filled/50/ff69b4/calendar--v1.png",
+        "text": "日程"
+      },
+      {
+        "pagePath": "pages/tree/index",
+        "iconPath": "https://img.icons8.com/ios/50/999999/sprout.png",
+        "selectedIconPath": "https://img.icons8.com/ios-filled/50/ff69b4/sprout.png",
+        "text": "古情树"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "恋人古情树",
+    "navigationBarBackgroundColor": "#ff69b4",
+    "backgroundColor": "#ffeef8",
+    "backgroundColorTop": "#ffeef8",
+    "backgroundColorBottom": "#e8f5e9",
+    "app-plus": {
+      "titleNView": false
+    }
+  },
+  "condition": {
+    "current": 0,
+    "list": [
+      {
+        "name": "首页",
+        "path": "pages/index/index"
+      },
+      {
+        "name": "登录",
+        "path": "pages/login/index"
+      }
+    ]
+  }
+}
