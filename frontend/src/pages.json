@@ -9,7 +9,7 @@
     {
       "path": "pages/index/index",
       "style": {
-        "navigationBarTitleText": "恋人古情树",
+        "navigationBarTitleText": "我们的古情树情侣契约树",
         "navigationBarBackgroundColor": "#ff69b4",
         "navigationBarTextStyle": "white",
         "enablePullDownRefresh": true,
@@ -74,39 +74,39 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "https://img.icons8.com/ios/50/999999/home--v1.png",
-        "selectedIconPath": "https://img.icons8.com/ios-filled/50/ff69b4/home--v1.png",
+        "iconPath": "static/home--v1.png",
+        "selectedIconPath": "static/home--v1 (1).png",
         "text": "首页"
       },
       {
         "pagePath": "pages/task/index",
-        "iconPath": "https://img.icons8.com/ios/50/999999/todo-list--v1.png",
-        "selectedIconPath": "https://img.icons8.com/ios-filled/50/ff69b4/todo-list--v1.png",
+        "iconPath": "static/todo-list--v1.png",
+        "selectedIconPath": "static/todo-list--v1 (1).png",
         "text": "任务"
       },
       {
         "pagePath": "pages/housework/index",
-        "iconPath": "https://img.icons8.com/ios/50/999999/broom.png",
-        "selectedIconPath": "https://img.icons8.com/ios-filled/50/ff69b4/broom.png",
+        "iconPath": "static/broom.png",
+        "selectedIconPath": "static/broom (1).png",
         "text": "家务"
       },
       {
         "pagePath": "pages/schedule/index",
-        "iconPath": "https://img.icons8.com/ios/50/999999/calendar--v1.png",
-        "selectedIconPath": "https://img.icons8.com/ios-filled/50/ff69b4/calendar--v1.png",
+        "iconPath": "static/calendar--v1.png",
+        "selectedIconPath": "static/calendar--v1 (1).png",
         "text": "日程"
       },
       {
         "pagePath": "pages/tree/index",
-        "iconPath": "https://img.icons8.com/ios/50/999999/sprout.png",
-        "selectedIconPath": "https://img.icons8.com/ios-filled/50/ff69b4/sprout.png",
+        "iconPath": "static/sprout.png",
+        "selectedIconPath": "static/sprout (1).png",
         "text": "古情树"
       }
     ]
   },
   "globalStyle": {
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "恋人古情树",
+    "navigationBarTitleText": "我们的古情树情侣契约树",
     "navigationBarBackgroundColor": "#ff69b4",
     "backgroundColor": "#ffeef8",
     "backgroundColorTop": "#ffeef8",
