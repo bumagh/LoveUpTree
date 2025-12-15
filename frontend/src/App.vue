@@ -1,32 +1,40 @@
 <script>
 export default {
-  onLaunch() {
+  onLaunch () {
     console.log('App Launch');
   },
-  onShow() {
+  onShow () {
     console.log('App Show');
   },
-  onHide() {
+  onHide () {
     console.log('App Hide');
   }
 };
 </script>
 
-<style>
-@import url('https://fonts.loli.net/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
-
+<style lang="scss">
 page {
-  font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
   background: linear-gradient(135deg, #ffeef8 0%, #e8f5e9 100%);
   min-height: 100vh;
 }
 
-* {
+page,
+view,
+text,
+swiper,
+swiper-item,
+image,
+navigator {
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
 }
 
-view, text, image, input, textarea, button {
+view,
+text,
+image,
+input,
+textarea,
+button {
   box-sizing: border-box;
 }
 
@@ -38,7 +46,8 @@ button::after {
   border: none;
 }
 
-input, textarea {
+input,
+textarea {
   outline: none;
 }
 
@@ -181,6 +190,7 @@ uni-input {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -195,6 +205,7 @@ uni-input {
     transform: translateY(100rpx);
     opacity: 0;
   }
+
   to {
     transform: translateY(0);
     opacity: 1;
@@ -210,6 +221,7 @@ uni-input {
     transform: scale(0.8);
     opacity: 0;
   }
+
   to {
     transform: scale(1);
     opacity: 1;
