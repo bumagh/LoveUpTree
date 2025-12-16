@@ -78,14 +78,14 @@ app.get('/api/status', (req, res) => {
 
 app.get('*', (req, res) => {
   if (!fs.existsSync(publicPath)) {
-    return res.status(404).json({ 
-      success: false, 
-      message: '前端资源未找到' 
+    return res.status(404).json({
+      success: false,
+      message: '前端资源未找到'
     });
   }
 
   const filePath = path.join(publicPath, req.path);
-  
+
   if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
     res.sendFile(filePath);
   } else {
@@ -93,9 +93,9 @@ app.get('*', (req, res) => {
     if (fs.existsSync(indexPath)) {
       res.sendFile(indexPath);
     } else {
-      res.status(404).json({ 
-        success: false, 
-        message: '页面未找到' 
+      res.status(404).json({
+        success: false,
+        message: '页面未找到'
       });
     }
   }
@@ -110,7 +110,7 @@ app.use((err, req, res, next) => {
   });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 31314;
 
 app.listen(PORT, () => {
   logger.info(`===================================`);
